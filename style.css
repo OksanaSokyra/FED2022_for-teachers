@@ -1,0 +1,90 @@
+.main_body {
+    background-color: violet;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.white_board {
+    background-color: rgb(162, 225, 236);
+    position: relative;
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+    border: 10px solid #adb2bd;
+    box-shadow: inset -1px 2px 2px #404040, 6px 9px 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.board_title {
+    font-family: 'Permanent Marker', sans-serif, arial;
+    font-size: 1.5em;
+    color: #460742;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.message {
+    font-family: 'Permanent Marker', sans-serif, arial;
+    font-size: 1.5em;
+    color: rgb(91, 43, 180);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.polaroid_photo {
+    height: 200px;
+}
+
+.rotate_m30_deg {
+    transform: rotate(-30deg);
+}
+
+.rotate_p30_deg {
+    transform: rotate(30deg);
+}
+
+.position_left_photo {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.position_right_photo {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.oksana_photo {
+    height: 200px;
+}
+
+
+.position_bottomleft_photo {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.tadeusz_photo {
+    height: 200px;
+}
+
+.ivan_photo {
+    height: 200px;
+}
+
+.position_bottomright_photo {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
